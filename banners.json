@@ -1,31 +1,26 @@
 {
   "bannerAds": [
     {
-      "locale": "es-XL",
       "text": "¡Nuestras traducciones!",
       "src": "/assets/@connect/sitioweb.png",
       "href": "https://traducciones.jackbox.lol/"
     },
     {
-      "locale": "es-XL",
       "text": "¡Parcheador y launcher!",
       "src": "/assets/@connect/jackboxutility.png",
       "href": "https://traducciones.jackbox.lol/descargas/"
     },
     {
-      "locale": "es-XL",
       "text": "¡Nuestro Discord!",
       "src": "/assets/@connect/discord.png",
       "href": "https://discord.com/invite/tmwF8sEfTp"
     },
     {
-      "locale": "es-XL",
       "text": "¡Compra los juegos!",
       "src": "/assets/@connect/steam.png",
       "href": "https://store.steampowered.com/search?developer=Jackbox%20Games%2C%20Inc."
     },
     {
-      "locale": "es-XL",
       "text": "¡Página en catalán!",
       "src": "/assets/@connect/catalan.png",
       "href": "https://jackbox.cat/"
