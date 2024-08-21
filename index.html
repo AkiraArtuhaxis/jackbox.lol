@@ -11,9 +11,8 @@
         "description": "Jackbox Games ES | ¡Juega Jackbox en español!",
         "banners": "https://raw.githubusercontent.com/AkiraArtuhaxis/jackbox.lol/main/banners.json",
         "twitchToken": "kevtapj8zlyw5lh8ulpwyuj967hdqu",
-        "bannerCaps": false,
         "apps": {
-            "pp1-drawful": {
+            "drawful": {
                 "messages": {
                     "BACK": "Atrás",
                     "SUBMIT": "Enviar",
@@ -75,7 +74,7 @@
                     }
                 }
             },
-            "pp1-fibbage": {
+            "fibbage": {
                 "messages": {
                     "BACK": "Atrás",
                     "SUBMIT": "Enviar",
@@ -122,7 +121,7 @@
                     }
                 }
             },
-            "pp1-lieswatter": {
+            "lieswatter": {
                 "assets": {
                     "HOv4jv": "pp1/lieswatter/1cebf88e.png",
                     "DlSM8I": "pp1/lieswatter/0e548cf0.png",
@@ -162,7 +161,7 @@
                     "DONE": "¡RESPUESTA INGRESADA!<br><br>ESPERANDO A LOS OTROS JUGADORES."
                 }
             },
-            "pp1-wordspud": {
+            "wordspud": {
                 "messages": {
                     "BACK": "Atrás",
                     "SUBMIT": "Enviar",
@@ -196,7 +195,7 @@
                     "DONE": "esperando a los jugadores"
                 }
             },
-            "pp1-ydkj2015": {
+            "ydkj2015": {
                 "assets": {
                     "zvUoRn": "pp1/ydkj2015/cef52846.png",
                     "D9iFDB": "pp1/ydkj2015/0fd8850c.png",
@@ -223,7 +222,7 @@
                     "EVERYBODYS_IN": "ESTAMOS TODOS"
                 }
             },
-            "pp2-auction": {
+            "auction": {
                 "assets": {
                     "zE7cUd": "pp2/auction/logo.png"
                 },
@@ -280,7 +279,7 @@
                     }
                 }
             },
-            "pp2-bombintern": {
+            "bombintern": {
                 "assets": {
                     "gRrv55": "pp2/bombintern/logo.png"
                 },
@@ -349,7 +348,7 @@
                     }
                 }
             },
-            "pp3-pollposition": {
+            "pollposition": {
                 "assets": {
                     "A2Qz7r": "pp3/pollposition/036433ee.png"
                 },
@@ -407,12 +406,12 @@
                     }
                 }
             },
-            "standalone-drawful2": {
+            "drawful2": {
                 "assets": {
                     "hCMkHf": "standalone/drawful2/8423241d.jpg"
                 }
             },
-            "tjsp-triviadeath2": {
+            "triviadeath2-tjsp": {
                 "assets": {
                     "zJ8ngQ": "tjsp/triviadeath2/DEXx5-zq.png"
                 }
@@ -448,31 +447,31 @@
                     "qD8mIO": "@connect/01da13ff.svg"
                 }
             },
-            "pp2-earwax": {
+            "earwax": {
                 "assets": {
                     "pkNJfz": "pp2/earwax/logo.png"
                 }
             },
-            "pp2-quiplash": {
+            "quiplash": {
                 "assets": {
                     "evnO9P": "pp2/quiplash/7af9cef4.png",
                     "Z2_01p": "pp2/quiplash/676ff4d6.png",
                     "JXR3ae": "pp2/quiplash/25747769.png"
                 }
             },
-            "pp3-awshirt": {
+            "awshirt": {
                 "assets": {
                     "ODmSM7": "pp3/awshirt/38399233.png"
                 }
             },
-            "pp3-fakinit": {
+            "fakinit": {
                 "assets": {
                     "cwEVcm": "pp3/fakinit/73011572.png",
                     "ZxaEul": "pp3/fakinit/go_text.png",
                     "iBskBx": "pp3/fakinit/stop_text.png"
                 }
             },
-            "pp3-quiplash2": {
+            "quiplash2": {
                 "assets": {
                     "_5ffzK": "pp3/quiplash2/ff97dfcc.png",
                     "U1YcZz": "pp3/quiplash2/53561c67.png",
@@ -480,48 +479,96 @@
                     "XH8_Ru": "pp3/quiplash2/5c7f3e46.png"
                 }
             },
-            "pp3-triviadeath": {
+            "triviadeath": {
                 "assets": {
                     "vUPQ9P": "pp3/triviadeath/bd43d0f4.png"
+                },
+                "messages": {
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
+                    },
+                    "LOBBY": {
+                        "WAIT": "¡Siéntate y relájate!",
+                        "VIP_WAITING": "Esperando a que todos los jugadores se unan",
+                        "VIP_CANSTART": "Pulsa este botón cuando todos se hayan unido",
+                        "VIP_CANCEL": "Pulsa este botón para cancelar el inicio de la partida",
+                        "VIP_POSTGAME": "¿Qué quieres hacer?",
+                        "BUTTON_START": "ESTAMOS TODOS",
+                        "BUTTON_CANCEL": "CANCELAR",
+                        "BUTTON_SAMEPLAYERS": "mismos jugadores",
+                        "BUTTON_NEWPLAYERS": "nuevos jugadores"
+                    },
+                    "DONE": "Gracias.",
+                    "DONE_AUDIENCE": "Gracias. Ahora espera en silencio.",
+                    "CHOICES": {
+                        "SUBTEXT": "Toca los elementos debajo que encajen con esta categoría.",
+                        "SUBTEXT_AUDIENCE": "Toca los elementos debajo que encajen con esta categoría.",
+                        "SUBMIT": "ENVIAR"
+                    },
+                    "WRITING": {
+                        "PLACEHOLDER": "INGRESA AQUÍ",
+                        "SEND": "ENVIAR"
+                    },
+                    "DRAWING": {
+                        "PROMPT": "Por favor dibuja:",
+                        "SEND": "enviar",
+                        "ERROR": "¡Tienes que dibujar algo!"
+                    },
+                    "POSTGAME": {
+                        "WIN": {
+                            "TITLE": "FELICIDADES",
+                            "TEXT": "¡Sobreviviste el juego!",
+                            "AUDIENCE": "¡El público ha SOBREVIVIDO!"
+                        },
+                        "LOSE": {
+                            "TITLE": "¡QUÉ TRAGEDIA!",
+                            "TEXT": "No sobreviviste el juego",
+                            "AUDIENCE": "¡El público ha MUERTO, y también tú!"
+                        },
+                        "SCORE": "Tu puntaje final: ${score}",
+                        "SCORE_AUDIENCE": "Puntaje que superar: ${score}"
+                    }
                 }
             },
-            "pp4-bracketeering": {
+            "bracketeering": {
                 "assets": {
                     "eR87lU": "pp4/bracketeering/791f3b95.png",
                     "rH3Ys4": "pp4/bracketeering/ac7dd8b3.png"
                 }
             },
-            "pp5-rapbattle": {
+            "rapbattle": {
                 "assets": {
                     "DhzdBy": "pp5/rapbattle/0e1cdd07.woff2",
                     "bHw_LF": "pp5/rapbattle/6c7c3e2c.png",
                     "K9Ayx4": "pp5/rapbattle/2bd032c7.png"
                 }
             },
-            "pp4-fibbage3": {
+            "fibbage3": {
                 "assets": {
                     "P81DEM": "pp4/fibbage3/3fcd4310.png"
                 }
             },
-            "pp5-slingshoot": {
+            "slingshoot": {
                 "assets": {
                     "vutJtp": "pp5/slingshoot/beeb49b6.png"
                 }
             },
-            "pp4-monstermingle": {
+            "monstermingle": {
                 "assets": {
                     "YS9Agq": "pp4/monstermingle/612f4082.png",
                     "xYRzCn": "pp4/monstermingle/c584730a.png"
                 }
             },
-            "pp4-overdrawn": {
+            "overdrawn": {
                 "assets": {
                     "iNKZHS": "pp4/overdrawn/88d2991d.png",
                     "rb2q0C": "pp4/overdrawn/adbdaad0.png",
                     "_Qq_SW": "pp4/overdrawn/f90abf49.png"
                 }
             },
-            "pp4-survivetheinternet": {
+            "survivetheinternet": {
                 "assets": {
                     "Ra1_oc": "pp4/survivetheinternet/45ad7ea1.png",
                     "vSUk9U": "pp4/survivetheinternet/bd2524f5.png",
@@ -530,32 +577,32 @@
                     "oCptIX": "pp4/survivetheinternet/a02a6d21.jpg"
                 }
             },
-            "pp5-patentlystupid": {
+            "patentlystupid": {
                 "assets": {
                     "jYFhkz": "pp5/patentlystupid/8d816193.png",
                     "McVl71": "pp5/patentlystupid/31c565ef.png",
                     "8xKNYc": "pp5/patentlystupid/f3128d61.png"
                 }
             },
-            "pp5-splittheroom": {
+            "splittheroom": {
                 "assets": {
                     "5y_9f4": "pp5/splittheroom/e72fbd7f.png",
                     "7rbQty": "pp5/splittheroom/eeb6d0b7.png"
                 }
             },
-            "pp5-ydkj2018": {
+            "ydkj2018": {
                 "assets": {
                     "sC_k5Z": "pp5/ydkj2018/b02fa4e5.png"
                 }
             },
-            "pp6-jokeboat": {
+            "jokeboat": {
                 "assets": {
                     "PEq_Mn": "pp6/jokeboat/3c4abf32.png",
                     "FrtA_F": "pp6/jokeboat/16bb40fc.png",
                     "zSO0bU": "pp6/jokeboat/cd23b46d.png"
                 }
             },
-            "pp6-pushthebutton": {
+            "pushthebutton": {
                 "assets": {
                     "LPdudJ": "pp6/pushthebutton/2cf76e74.png",
                     "NHTAIm": "pp6/pushthebutton/3474c022.png",
@@ -566,31 +613,31 @@
                     "rcCU2u": "pp6/pushthebutton/AJMVWifx.png"
                 }
             },
-            "pp6-ridictionary": {
+            "ridictionary": {
                 "assets": {
                     "nHV2r5": "pp6/ridictionary/9c7576af.png"
                 }
             },
-            "pp6-rolemodels": {
+            "rolemodels": {
                 "assets": {
                     "SVFB6_": "pp6/rolemodels/495141eb.png",
                     "_XFO6m": "pp6/rolemodels/f9714eea.png"
                 }
             },
-            "pp6-triviadeath2": {
+            "triviadeath2": {
                 "assets": {
                     "4mYeub": "pp6/triviadeath2/Dc6qJEbs.png",
                     "zJ8ngQ": "pp6/triviadeath2/DEXx5-zq.png"
                 }
             },
-            "pp7-blanky-blank": {
+            "blanky-blank": {
                 "assets": {
                     "M7HA18": "pp7/blanky-blank/33b1c0d7.png",
                     "JH5_c5": "pp7/blanky-blank/247e7e73.svg",
                     "1ik1f_": "pp7/blanky-blank/d629357f.png"
                 }
             },
-            "pp7-everyday": {
+            "everyday": {
                 "assets": {
                     "sRXh2m": "pp7/everyday/b115e1da.png",
                     "IddGuq": "pp7/everyday/21d746ba.png",
@@ -780,7 +827,7 @@
                     "8IhrLn": "pp7/everyday/f0886b2e.png"
                 }
             },
-            "pp7-jackboxtalks": {
+            "jackbox-talks": {
                 "assets": {
                     "tZbE0u": "pp7/jackboxtalks/b596c4d2.jpg",
                     "nYFENu": "pp7/jackboxtalks/9d814436.jpg",
@@ -831,25 +878,25 @@
                     "Mab_vj": "pp7/jackboxtalks/31a6ffbe.png"
                 }
             },
-            "pp7-quiplash3": {
+            "quiplash3": {
                 "assets": {
                     "Z_YQ__": "pp7/quiplash3/ZjeZP5T8.png"
                 }
             },
-            "pp7-worldchamps": {
+            "worldchamps": {
                 "assets": {
                     "V6_JY6": "pp7/worldchamps/57af8963.png",
                     "ARHVPu": "pp7/worldchamps/0111d53e.png",
                     "dUD90D": "pp7/worldchamps/7540fdd0.png"
                 }
             },
-            "pp8-the-wheel": {
+            "the-wheel": {
                 "assets": {
                     "WeJXZh": "pp8/the-wheel/59e25766.jpg",
                     "I30BoJ": "pp8/the-wheel/237d01a0.png"
                 }
             },
-            "pp8-drawful-animate": {
+            "drawful-animate": {
                 "assets": {
                     "Yq0yic": "pp8/drawful-animate/62ad3289.png",
                     "UncnrY": "pp8/drawful-animate/527727ad.png",
@@ -859,13 +906,13 @@
                     "7unlAw": "pp8/drawful-animate/eee9e503.png"
                 }
             },
-            "pp8-survey-bomb": {
+            "survey-bomb": {
                 "assets": {
                     "ua4spa": "pp8/survey-bomb/b9ae2ca5.png",
                     "vI8er4": "pp8/survey-bomb/bc8f1eaf.png"
                 }
             },
-            "pp8-murder-detectives": {
+            "murder-detectives": {
                 "assets": {
                     "_UUTQ0": "pp8/murder-detectives/dcWgiGfY.png",
                     "dci0_J": "pp8/murder-detectives/HNA14ykN.jpg",
@@ -875,7 +922,7 @@
                     "x_DAO_": "pp8/murder-detectives/UaJO9oos.png"
                 }
             },
-            "pp8-apply-yourself": {
+            "apply-yourself": {
                 "assets": {
                     "VxqKFs": "pp8/apply-yourself/571a8a16.png",
                     "PQrHR0": "pp8/apply-yourself/3d0ac747.svg",
@@ -884,9 +931,9 @@
                     "zGaQf3": "pp8/apply-yourself/cc66907f.svg"
                 }
             }
-        },
-        "messages": {}
+        }
     }</script>
+    <style>body{background-color:#091420}</style>
 </head>
 
 <body>
