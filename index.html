@@ -43,40 +43,37 @@
         "apps": {
             "drawful": {
                 "messages": {
-                    "BACK": "Atrás",
-                    "SUBMIT": "Enviar",
-                    "SEND": "enviar",
-                    "YES": "Sí",
-                    "INPUT_ERROR": "¡Tienes que ingresar algo!",
-                    "INPUT_REJECTED": "Eso no está permitido",
-                    "DRAW_ERROR": "¡Tienes que dibujar algo!",
-                    "DRAW_REJECTED": "Eso no está permitido",
-                    "DISCONNECTED_TEXT": "Has sido desconectado.",
-                    "BROADCASTER": {
-                        "CONNECTED": "Has conectado correctamente tu cuenta a la Extensión de Twitch del Kit de Público de Jackbox.",
-                        "WARNING": "ESTE JUEGO NO TIENE FUNCIÓN DE PÚBLICO",
-                        "WARNING_OFF": "ESTA SALA NO TIENE LA OPCIÓN DE PÚBLICO HABILITADA"
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
                     },
                     "LOBBY": {
-                        "EVERYBODYS_IN": "estamos todos",
-                        "CANCEL": "cancelar",
-                        "SAME_PLAYERS": "mismos jugadores",
-                        "NEW_PLAYERS": "nuevos jugadores",
-                        "WAITING": "esperando a que todos los jugadores se unan",
-                        "CAN_START": "pulsa este botón cuando todos se hayan unido",
-                        "COUNTDOWN": "pulsa este botón para cancelar el inicio de la partida",
-                        "POST_GAME": "¿qué quieres hacer?",
-                        "PICTURE": "¡un autorretrato!"
+                        "WAIT": "¡Siéntate y relájate!",
+                        "VIP_WAITING": "esperando a que todos los jugadores se unan",
+                        "VIP_CANSTART": "pulsa este botón cuando todos se hayan unido",
+                        "VIP_CANCEL": "pulsa este botón para cancelar el inicio de la partida",
+                        "VIP_POSTGAME": "¿qué quieres hacer?",
+                        "BUTTON_START": "estamos todos",
+                        "BUTTON_CANCEL": "cancelar",
+                        "BUTTON_SAMEPLAYERS": "mismos jugadores",
+                        "BUTTON_NEWPLAYERS": "nuevos jugadores"
                     },
                     "ROUND": "RONDA {round}",
+                    "SEND": "enviar",
                     "DRAWING": {
-                        "PLEASE_DRAW": "por favor dibuja:",
-                        "ERROR_NOTHING": "¡Tienes que dibujar algo!",
-                        "DONE": "gracias por tu dibujo",
-                        "TIME_UP": "¡el tiempo para dibujar se acabó!"
+                        "PROMPT": "por favor dibuja:",
+                        "ENTERED": "gracias por tu dibujo",
+                        "ENDED": "¡el tiempo para dibujar se acabó!",
+                        "ERROR": "¡Tienes que dibujar algo!"
                     },
                     "WRITING": {
-                        "AUTHOR": [
+                        "PROMPT": "ingresa un título",
+                        "DRAW_YOURSELF": "¡un autorretrato!",
+                        "ENTERED": "¡título ingresado!\nesperando a los demás jugadores.",
+                        "DONE": "¡hecho!",
+                        "ERROR_TRUTH": "¡ingresaste el título correcto! ¡ingresa uno falso!",
+                        "AUTHOR_MESSAGE": [
                             "tú dibujaste esto. piensa en lo que has hecho.",
                             "tú dibujaste esto. relájate.",
                             "tú dibujaste esto. espera a que todos se den cuenta de lo que hiciste.",
@@ -89,64 +86,51 @@
                             "tú dibujaste esto. ¡viva!",
                             "tú dibujaste esto. veamos qué sucede."
                         ],
-                        "ERROR_NOTHING": "¡no puedes dejarlo en blanco!",
-                        "ERROR_TRUTH": "¡ingresaste el título correcto! ¡ingresa uno falso!",
-                        "PLACEHOLDER": "ingresa un título",
-                        "DONE": "¡título ingresado!<br>esperando a los demás jugadores.",
-                        "TIME_UP": "¡hecho!"
+                        "ERROR": "¡no puedes dejarlo en blanco!"
                     },
                     "CHOOSING": {
                         "PROMPT": "¿Cuál es el título real?",
-                        "DONE": "elegiste: {choice}",
-                        "NO_CHOICE": "no tomaste una elección",
-                        "AWARD": "concede likes de bonificación"
+                        "YOU_CHOSE": "elegiste: {choice}",
+                        "NO_CHOICE": "no tomaste una elección"
                     }
                 }
             },
             "fibbage": {
                 "messages": {
-                    "BACK": "Atrás",
-                    "SUBMIT": "Enviar",
-                    "SEND": "Enviar",
-                    "YES": "Sí",
-                    "INPUT_ERROR": "¡Tienes que ingresar algo!",
-                    "INPUT_REJECTED": "¡Eso no está permitido, ingresa otra cosa! (Puedes cambiar el nivel del filtro en el menú de ajustes del juego)",
-                    "DRAW_ERROR": "¡Tienes que dibujar algo!",
-                    "DRAW_REJECTED": "Eso no está permitido, ¡ingresa otra cosa!",
-                    "DISCONNECTED": "Desconectado",
-                    "DISCONNECTED_TEXT": "Has sido desconectado.",
-                    "DISCONNECTED_DESTROYED": "¡Gracias por jugar!",
-                    "BROADCASTER": {
-                        "CONNECTED": "Has conectado correctamente tu cuenta a la Extensión de Twitch del Kit de Público de Jackbox.",
-                        "WARNING": "ESTE JUEGO NO TIENE FUNCIÓN DE PÚBLICO",
-                        "WARNING_OFF": "ESTA SALA NO TIENE LA OPCIÓN DE PÚBLICO HABILITADA"
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
                     },
-                    "ROUND": "RONDA {round}",
-                    "CATEGORY_PLAYER": "{name} está eligiendo una categoría",
                     "LOBBY": {
-                        "EVERYBODYS_IN": "ESTAMOS TODOS",
-                        "CANCEL": "CANCELAR",
-                        "SAME_PLAYERS": "MISMOS JUGADORES",
-                        "NEW_PLAYERS": "NUEVOS JUGADORES",
-                        "WAITING": "Esperando a que todos los jugadores se unan",
-                        "CAN_START": "Pulsa este botón cuando todos se hayan unido",
-                        "COUNTDOWN": "Pulsa este botón para cancelar el inicio de la partida",
-                        "POST_GAME": "¿Qué quieres hacer?"
+                        "WAIT": "¡Siéntate y relájate!",
+                        "VIP_WAITING": "Esperando a que todos los jugadores se unan",
+                        "VIP_CANSTART": "Pulsa este botón cuando todos se hayan unido",
+                        "VIP_CANCEL": "Pulsa este botón para cancelar el inicio de la partida",
+                        "VIP_POSTGAME": "¿Qué quieres hacer?",
+                        "BUTTON_START": "ESTAMOS TODOS",
+                        "BUTTON_CANCEL": "CANCELAR",
+                        "BUTTON_SAMEPLAYERS": "MISMOS JUGADORES",
+                        "BUTTON_NEWPLAYERS": "NUEVOS JUGADORES"
                     },
-                    "ENTER_LIE": {
+                    "CATEGORY": {
+                        "PROMPT": "¡Estás eligiendo la categoría!",
+                        "WAITING": "{player} está eligiendo una categoría"
+                    },
+                    "WRITING": {
                         "PLACEHOLDER": "INGRESA UNA MENTIRA",
-                        "LIE_FOR_ME": "Miente por mí<br>(Mitad de puntos)",
+                        "LIE_FOR_ME": "Miente por mí\n(Mitad de puntos)",
                         "SEND": "ENVIAR",
-                        "ERROR_NOTHING": "¡No puedes dejarlo en blanco! ¡Usa una sugerencia si necesitas ayuda!",
-                        "ERROR_TRUTH": "¡Ingresaste la verdad! ¡Ingresa una mentira!",
-                        "LIE_RECEIVED": "¡MENTIRA INGRESADA!<br>ESPERANDO A LOS DEMÁS JUGADORES.",
-                        "LYING_DONE": "¡TERMINASTE DE MENTIR!"
+                        "ENTERED": "¡MENTIRA INGRESADA!\nESPERANDO A LOS DEMÁS JUGADORES.",
+                        "DONE": "¡TERMINASTE DE MENTIR!",
+                        "ERROR": "¡No puedes dejarlo en blanco! ¡Usa una sugerencia si necesitas ayuda!",
+                        "ERROR_TRUTH": "¡Ingresaste la verdad! ¡Ingresa una mentira!"
                     },
                     "CHOOSING": {
-                        "DONE": "Elegiste: {choice}",
-                        "NO_CHOICE": "No hiciste una elección",
-                        "AWARD": "Concede likes de bonificación",
-                        "TRUTH": "¡encuentra la verdad!"
+                        "PROMPT": "¡encuentra la verdad!",
+                        "YOU_CHOSE": "Elegiste: {choice}",
+                        "NO_CHOICE": "No tomaste una elección",
+                        "AWARD_LIKES": "Concede likes de bonificación"
                     }
                 }
             },
@@ -158,70 +142,45 @@
                     "uLt7Cm": "pp1/lieswatter/b8bb7b0a.png"
                 },
                 "messages": {
-                    "BACK": "Atrás",
-                    "SUBMIT": "Enviar",
-                    "SEND": "Enviar",
-                    "YES": "Sí",
-                    "INPUT_ERROR": "¡Tienes que ingresar algo!",
-                    "INPUT_REJECTED": "¡Eso no está permitido, ingresa otra cosa! (Puedes cambiar el nivel del filtro en el menú de ajustes del juego)",
-                    "DRAW_ERROR": "¡Tienes que dibujar algo!",
-                    "DRAW_REJECTED": "Eso no está permitido, ¡ingresa otra cosa!",
-                    "DISCONNECTED": "Desconectado",
-                    "DISCONNECTED_TEXT": "Has sido desconectado.",
-                    "DISCONNECTED_DESTROYED": "¡Gracias por jugar!",
-                    "BROADCASTER": {
-                        "CONNECTED": "Has conectado correctamente tu cuenta a la Extensión de Twitch del Kit de Público de Jackbox.",
-                        "WARNING": "ESTE JUEGO NO TIENE FUNCIÓN DE PÚBLICO",
-                        "WARNING_OFF": "ESTA SALA NO TIENE LA OPCIÓN DE PÚBLICO HABILITADA"
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
                     },
                     "LOBBY": {
-                        "EVERYBODYS_IN": "ESTAMOS TODOS",
-                        "SAME_PLAYERS": "MISMOS JUGADORES",
-                        "NEW_PLAYERS": "NUEVOS JUGADORES",
-                        "CAN_START": "Pulsa este botón cuando todos se hayan unido",
-                        "POST_GAME": "¿Qué quieres hacer?"
+                        "BUTTON_START": "ESTAMOS TODOS",
+                        "BUTTON_SAMEPLAYERS": "MISMOS JUGADORES",
+                        "BUTTON_NEWPLAYERS": "NUEVOS JUGADORES"
                     },
-                    "STATS": {
+                    "HEADER": {
                         "RANK": "POSICIÓN",
                         "SCORE": "PUNTAJE",
                         "STREAK": "RACHA"
                     },
                     "WAITING": "ESPERANDO A QUE EMPIECE LA PARTIDA",
-                    "DONE": "¡RESPUESTA INGRESADA!<br><br>ESPERANDO A LOS OTROS JUGADORES."
+                    "ENTERED": "¡RESPUESTA INGRESADA!\n\nESPERANDO A LOS OTROS JUGADORES."
                 }
             },
             "wordspud": {
                 "messages": {
-                    "BACK": "Atrás",
-                    "SUBMIT": "Enviar",
-                    "SEND": "Enviar",
-                    "YES": "Sí",
-                    "INPUT_ERROR": "¡Tienes que ingresar algo!",
-                    "INPUT_REJECTED": "¡Eso no está permitido, ingresa otra cosa! (Puedes cambiar el nivel del filtro en el menú de ajustes del juego)",
-                    "DRAW_ERROR": "¡Tienes que dibujar algo!",
-                    "DRAW_REJECTED": "Eso no está permitido, ¡ingresa otra cosa!",
-                    "DISCONNECTED": "Desconectado",
-                    "DISCONNECTED_TEXT": "Has sido desconectado.",
-                    "DISCONNECTED_DESTROYED": "¡Gracias por jugar!",
-                    "BROADCASTER": {
-                        "CONNECTED": "Has conectado correctamente tu cuenta a la Extensión de Twitch del Kit de Público de Jackbox.",
-                        "WARNING": "ESTE JUEGO NO TIENE FUNCIÓN DE PÚBLICO",
-                        "WARNING_OFF": "ESTA SALA NO TIENE LA OPCIÓN DE PÚBLICO HABILITADA"
-                    },
                     "LOBBY": {
-                        "WAITING": "esperando a los jugadores",
-                        "CAN_START": "pulsa este botón cuando todos se hayan unido",
-                        "EVERYBODYS_IN": "ESTAMOS TODOS",
+                        "VIP_CANSTART": "pulsa este botón cuando todos se hayan unido",
+                        "BUTTON_START": "ESTAMOS TODOS",
                         "NEXT_ROUND": "Siguiente ronda",
                         "NEW_GAME": "Nueva partida"
                     },
-                    "YOUR_TURN": "¡es tu turno!",
-                    "PLACEHOLDER": "Escribe algo",
-                    "VOTE": "¿te gusta?",
-                    "VOTE_YES": "SÍ",
-                    "JUDGED": "te están juzgando.",
-                    "COMMENT": "añade tu propio comentario",
-                    "DONE": "esperando a los jugadores"
+                    "WRITING": {
+                        "PROMPT": "¡es tu turno!",
+                        "COMMENTARY": "añade tu propio comentario",
+                        "PLACEHOLDER": "Escribe algo",
+                        "SEND": "Enviar"
+                    },
+                    "VOTING": {
+                        "PROMPT": "¿te gusta?",
+                        "YES": "SÍ",
+                        "JUDGED": "te están juzgando.",
+                        "WAITING": "esperando a los jugadores"
+                    }
                 }
             },
             "ydkj2015": {
@@ -232,23 +191,14 @@
                     "_skXdF": "pp1/ydkj2015/fec91774.png"
                 },
                 "messages": {
-                    "BACK": "Atrás",
-                    "SUBMIT": "Enviar",
-                    "SEND": "Enviar",
-                    "YES": "Sí",
-                    "INPUT_ERROR": "¡Tienes que ingresar algo!",
-                    "INPUT_REJECTED": "¡Eso no está permitido, ingresa otra cosa! (Puedes cambiar el nivel del filtro en el menú de ajustes del juego)",
-                    "DRAW_ERROR": "¡Tienes que dibujar algo!",
-                    "DRAW_REJECTED": "Eso no está permitido, ¡ingresa otra cosa!",
-                    "DISCONNECTED": "Desconectado",
-                    "DISCONNECTED_TEXT": "Has sido desconectado.",
-                    "DISCONNECTED_DESTROYED": "¡Gracias por jugar!",
-                    "BROADCASTER": {
-                        "CONNECTED": "Has conectado correctamente tu cuenta a la Extensión de Twitch del Kit de Público de Jackbox.",
-                        "WARNING": "ESTE JUEGO NO TIENE FUNCIÓN DE PÚBLICO",
-                        "WARNING_OFF": "ESTA SALA NO TIENE LA OPCIÓN DE PÚBLICO HABILITADA"
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
                     },
-                    "EVERYBODYS_IN": "ESTAMOS TODOS"
+                    "LOBBY": {
+                        "BUTTON_START": "ESTAMOS TODOS"
+                    }
                 }
             },
             "auction": {
