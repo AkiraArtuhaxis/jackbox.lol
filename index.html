@@ -210,55 +210,41 @@
                     "zE7cUd": "pp2/auction/logo.png"
                 },
                 "messages": {
-                    "BACK": "Atrás",
-                    "SUBMIT": "Enviar",
-                    "SEND": "Enviar",
-                    "YES": "Sí",
-                    "INPUT_ERROR": "¡Tienes que ingresar algo!",
-                    "INPUT_REJECTED": "¡Eso no está permitido, ingresa otra cosa! (Puedes cambiar el nivel del filtro en el menú de ajustes del juego)",
-                    "DRAW_ERROR": "¡Tienes que dibujar algo!",
-                    "DRAW_REJECTED": "Eso no está permitido, ¡ingresa otra cosa!",
-                    "DISCONNECTED": "Desconectado",
-                    "DISCONNECTED_TEXT": "Has sido desconectado.",
-                    "DISCONNECTED_DESTROYED": "¡Gracias por jugar!",
-                    "BROADCASTER": {
-                        "CONNECTED": "Has conectado correctamente tu cuenta a la Extensión de Twitch del Kit de Público de Jackbox.",
-                        "WARNING": "ESTE JUEGO NO TIENE FUNCIÓN DE PÚBLICO",
-                        "WARNING_OFF": "ESTA SALA NO TIENE LA OPCIÓN DE PÚBLICO HABILITADA"
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
                     },
                     "LOBBY": {
-                        "EVERYBODYS_IN": "ESTAMOS TODOS",
-                        "CANCEL": "CANCELAR",
-                        "SAME_PLAYERS": "MISMOS JUGADORES",
-                        "NEW_PLAYERS": "NUEVOS JUGADORES",
-                        "WAITING": "esperando a que todos los jugadores se unan",
-                        "CAN_START": "pulsa este botón cuando todos se hayan unido",
-                        "COUNTDOWN": "pulsa este botón para cancelar el inicio de la partida",
-                        "RELAX": "¡siéntate y relájate!",
-                        "POST_GAME": "toma tu decisión"
+                        "WAIT": "¡siéntate y relájate!",
+                        "VIP_WAITING": "esperando a que todos los jugadores se unan",
+                        "VIP_CANSTART": "pulsa este botón cuando todos se hayan unido",
+                        "VIP_CANCEL": "pulsa este botón para cancelar el inicio de la partida",
+                        "BUTTON_START": "ESTAMOS TODOS",
+                        "BUTTON_CANCEL": "CANCELAR",
+                        "BUTTON_SAMEPLAYERS": "MISMOS JUGADORES",
+                        "BUTTON_NEWPLAYERS": "NUEVOS JUGADORES"
                     },
                     "SKIP": "Omitir",
                     "DRAWING": {
-                        "PROMPT": "Por favor dibuja {title}",
-                        "ERROR": "¡Tienes que dibujar algo!",
+                        "PROMPT": "Por favor dibuja: {title}",
                         "SEND": "enviar",
-                        "DONE": "¡Gracias por los dibujos!"
+                        "DONE": "¡Gracias por los dibujos!",
+                        "ERROR": "¡Tienes que dibujar algo!"
                     },
                     "BIDDING": {
-                        "HINT": "{title} vale {price}",
+                        "PRICE_HINT": "{title} vale {value}",
                         "SCREW": "ENROSCAR",
-                        "SCREW_WAIT": "Otro jugador está enroscando, para el carro"
+                        "SCREW_HOLD": "Otro jugador está enroscando, para el carro"
                     },
                     "BANK": {
-                        "BUTTON": {
-                            "CALL": "LLAMAR AL BANCO",
-                            "CALLED": "BANCO LLAMADO",
-                            "DEFAULT": "PEDIR UN PRÉSTAMO",
-                            "MAX_LOANS": "MAL CRÉDITO",
-                            "MAX_CALLS": "DEJA DE LLAMAR"
-                        },
-                        "MAX_LOANS": "Ya has obtenido 3 préstamos. ¡No más para ti!",
-                        "DEFAULT": "Recibirás: {amount}, y deberás {amount}"
+                        "CALL": "LLAMAR AL BANCO",
+                        "CALLED": "BANCO LLAMADO",
+                        "BAD_CREDIT": "MAL CRÉDITO",
+                        "STOP_CALLING": "DEJA DE LLAMAR",
+                        "GET_LOAN": "PEDIR UN PRÉSTAMO",
+                        "INFO": "Recibirás: {loan}, y deberás {debt}",
+                        "NO_MORE_LOANS": "Ya has obtenido 3 préstamos. ¡No más para ti!"
                     }
                 }
             },
@@ -267,66 +253,51 @@
                     "gRrv55": "pp2/bombintern/logo.png"
                 },
                 "messages": {
-                    "BACK": "Atrás",
-                    "SUBMIT": "Enviar",
-                    "SEND": "Enviar",
-                    "YES": "Sí",
-                    "INPUT_ERROR": "¡Tienes que ingresar algo!",
-                    "INPUT_REJECTED": "¡Eso no está permitido, ingresa otra cosa! (Puedes cambiar el nivel del filtro en el menú de ajustes del juego)",
-                    "DRAW_ERROR": "¡Tienes que dibujar algo!",
-                    "DRAW_REJECTED": "Eso no está permitido, ¡ingresa otra cosa!",
-                    "DISCONNECTED": "Desconectado",
-                    "DISCONNECTED_TEXT": "Has sido desconectado.",
-                    "DISCONNECTED_DESTROYED": "¡Gracias por jugar!",
-                    "BROADCASTER": {
-                        "CONNECTED": "Has conectado correctamente tu cuenta a la Extensión de Twitch del Kit de Público de Jackbox.",
-                        "WARNING": "ESTE JUEGO NO TIENE FUNCIÓN DE PÚBLICO",
-                        "WARNING_OFF": "ESTA SALA NO TIENE LA OPCIÓN DE PÚBLICO HABILITADA"
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
                     },
                     "LOBBY": {
-                        "START": "EMPEZAR",
-                        "CANCEL": "CANCELAR",
-                        "WAITING": "Esperando a que todos los jugadores se unan",
-                        "CAN_START": "Pulsa este botón cuando todos se hayan unido",
-                        "COUNTDOWN": "Pulsa este botón para cancelar el inicio de la partida",
-                        "WAITING_START": "Esperando a que empiece la partida"
-                    },
-                    "POST_GAME": {
-                        "DAY_COMPLETE": "¡Día completado!",
-                        "GAME_OVER": "¡Juego terminado!",
-                        "CONTINUE": "SIGUIENTE DÍA",
-                        "RETRY_DAY": "REINTENTAR DÍA",
-                        "RETRY": "REINTENTAR",
-                        "MENU": "MENÚ"
+                        "VIP_WAITING": "Esperando a que todos los jugadores se unan",
+                        "VIP_CANSTART": "Pulsa este botón cuando todos se hayan unido",
+                        "VIP_CANCEL": "Pulsa este botón para cancelar el inicio de la partida",
+                        "VIP_WAITINGTOSTART": "Esperando a que empiece la partida",
+                        "BUTTON_START": "EMPEZAR",
+                        "BUTTON_CANCEL": "CANCELAR",
+                        "BUTTON_NEXTDAY": "SIGUIENTE DÍA",
+                        "BUTTON_RETRYDAY": "REINTENTAR DÍA",
+                        "BUTTON_RETRY": "REINTENTAR",
+                        "BUTTON_MENU": "MENÚ"
                     },
                     "PUZZLE": {
-                        "INSTRUCTIONS": "SIGUE LAS INSTRUCCIONES",
+                        "FOLLOW_INSTRUCTIONS": "SIGUE LAS INSTRUCCIONES",
                         "SMASH": {
-                            "TEXT": "PULSA DEBAJO PARA ROMPER ALGO",
+                            "HEADER": "PULSA DEBAJO PARA ROMPER ALGO",
                             "INSTRUCTIONS": "¡LEE LAS INSTRUCCIONES DEBAJO PARA AYUDAR A ROMPER!",
-                            "SOLO": "¡ERES QUIEN ROMPE!"
+                            "ROLE": "¡ERES QUIEN ROMPE!"
                         },
                         "WIRED": {
+                            "HEADER": "TOCA BOTONES PARA CORTAR LOS CABLES",
                             "WIRE": "Cable",
-                            "TEXT": "TOCA BOTONES PARA CORTAR LOS CABLES",
-                            "SOLO": "¡ERES QUIEN CORTA!"
+                            "ROLE": "¡ERES QUIEN CORTA!"
                         },
                         "COFFEE": {
-                            "TEXT": "PULSA PARA AÑADIR O REMOVER INGREDIENTES",
-                            "SOLO": "¡ERES QUIEN PREPARA!",
-                            "HEADER": "PULSA CUANDO ESTÉS LISTO PARA PREPARAR",
-                            "BREW": "Preparar"
+                            "HEADER": "PULSA PARA AÑADIR O REMOVER INGREDIENTES",
+                            "HEADER_BREW": "PULSA CUANDO ESTÉS LISTO PARA PREPARAR",
+                            "BREW": "Preparar",
+                            "ROLE": "¡ERES QUIEN PREPARA!"
                         },
                         "FILING": {
-                            "TEXT": "PULSA DEBAJO PARA ARCHIVAR",
-                            "SOLO": "¡ERES QUIEN ARCHIVA!"
+                            "HEADER": "PULSA DEBAJO PARA ARCHIVAR",
+                            "ROLE": "¡ERES QUIEN ARCHIVA!"
                         },
                         "COPIER": {
-                            "SOLO": "¡ARREGLA LA COPIADORA!"
+                            "ROLE": "¡ARREGLA LA COPIADORA!"
                         },
                         "KEYPAD": {
-                            "TEXT": "Ingresa un código de 4 dígitos:",
-                            "SOLO": "¡DESCIFRA EL CÓDIGO!"
+                            "HEADER": "Ingresa un código de 4 dígitos:",
+                            "ROLE": "¡DESCIFRA EL CÓDIGO!"
                         }
                     }
                 }
@@ -436,6 +407,39 @@
             "earwax": {
                 "assets": {
                     "pkNJfz": "pp2/earwax/logo.png"
+                },
+                "messages": {
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
+                    },
+                    "LOBBY": {
+                        "WAIT": "¡Siéntate y relájate!",
+                        "VIP_WAITING": "Esperando a que todos los jugadores se unan",
+                        "VIP_CANSTART": "Pulsa este botón cuando todos se hayan unido",
+                        "VIP_CANCEL": "Pulsa este botón para cancelar el inicio de la partida",
+                        "VIP_POSTGAME": "¿Qué quieres hacer?",
+                        "BUTTON_START": "ESTAMOS TODOS",
+                        "BUTTON_CANCEL": "CANCELAR",
+                        "BUTTON_SAMEPLAYERS": "MISMOS JUGADORES",
+                        "BUTTON_NEWPLAYERS": "NUEVOS JUGADORES"
+                    },
+                    "SKIP": "OMITIR INSTRUCCIONES",
+                    "PICK_PROMPT": "ELIGE UN ENUNCIADO",
+                    "AUDIENCE": {
+                        "WAIT_A": "¡TE HAS UNIDO COMO PÚBLICO!",
+                        "WAIT_B": "ESPERANDO AL SIGUIENTE ENUNCIADO PARA EMPEZAR.",
+                        "WAIT_CHOOSING": "¡Estás en el público! Espera el momento de votar."
+                    },
+                    "JUDGE_CHOOSING": "{player} está eligiendo un enunciado",
+                    "CHOOSING": {
+                        "PICK_FIRST": "Elige el primer sonido para:",
+                        "PICK_SECOND": "Elige el segundo sonido para:",
+                        "WAITING": "Esperando a que los jugadores elijan los sonidos"
+                    },
+                    "PICK_WINNER": "ELIGE UN GANADOR",
+                    "PICK_LIKES": "VOTA POR TU FAVORITO"
                 }
             },
             "quiplash": {
@@ -443,6 +447,38 @@
                     "evnO9P": "pp2/quiplash/7af9cef4.png",
                     "Z2_01p": "pp2/quiplash/676ff4d6.png",
                     "JXR3ae": "pp2/quiplash/25747769.png"
+                },
+                "messages": {
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
+                    },
+                    "LOBBY": {
+                        "WAIT": "¡Siéntate y relájate!",
+                        "VIP_WAITING": "Esperando a que todos los jugadores se unan",
+                        "VIP_CANSTART": "Pulsa este botón cuando todos se hayan unido",
+                        "VIP_CANCEL": "Pulsa este botón para cancelar el inicio de la partida",
+                        "VIP_POSTGAME": "¿Qué quieres hacer?",
+                        "BUTTON_START": "ESTAMOS TODOS",
+                        "BUTTON_CANCEL": "CANCELAR",
+                        "BUTTON_SAMEPLAYERS": "MISMOS JUGADORES",
+                        "BUTTON_NEWPLAYERS": "NUEVOS JUGADORES"
+                    },
+                    "WRITING": {
+                        "PLACEHOLDER": "RESPONDE AQUÍ",
+                        "SEND": "Enviar",
+                        "DONE": "¡Gracias por tus respuestas!",
+                        "ERROR": "¡No puedes dejarlo en blanco!"
+                    },
+                    "VOTING": {
+                        "WAIT": "¡Espera a los otros jugadores!",
+                        "PROMPT": "¿Con cuál te quedas?",
+                        "YOU_HAVE": "Tienes ",
+                        "VOTE_LEFT": " voto que dar",
+                        "VOTES_LEFT": " votos que dar",
+                        "THANKS_AUDIENCE": "¡Gracias, miembro del público!"
+                    }
                 }
             },
             "awshirt": {
@@ -2675,7 +2711,151 @@
                     "fwlCjh": "@connect/CMUb-qOV.png"
                 }
             },
-            "ecast-test-client": {}
+            "ecast-test-client": {},
+            "fibbage2": {
+                "messages": {
+                    "DISCONNECTED": {
+                        "TITLE": "Desconectado",
+                        "TEXT": "Has sido desconectado.",
+                        "DESTROYED": "¡Gracias por jugar!"
+                    },
+                    "LOBBY": {
+                        "WAIT": "¡Siéntate y relájate!",
+                        "VIP_WAITING": "Esperando a que todos los jugadores se unan",
+                        "VIP_CANSTART": "Pulsa este botón cuando todos se hayan unido",
+                        "VIP_CANCEL": "Pulsa este botón para cancelar el inicio de la partida",
+                        "VIP_POSTGAME": "¿Qué quieres hacer?",
+                        "BUTTON_START": "ESTAMOS TODOS",
+                        "BUTTON_CANCEL": "CANCELAR",
+                        "BUTTON_SAMEPLAYERS": "MISMOS JUGADORES",
+                        "BUTTON_NEWPLAYERS": "NUEVOS JUGADORES",
+                        "SELECT_SOUND": "¡SELECCIONA TU SONIDO PARA LA PARTIDA!"
+                    },
+                    "ROUND": "RONDA {round}",
+                    "CATEGORY": {
+                        "PROMPT": "¡Estás eligiendo la categoría!",
+                        "WAITING": "{player} está eligiendo una categoría"
+                    },
+                    "WRITING": {
+                        "PLACEHOLDER": "INGRESA UNA MENTIRA",
+                        "LIE_FOR_ME": "Miente por mí\n(Mitad de puntos)",
+                        "SEND": "ENVIAR",
+                        "ENTERED": "¡MENTIRA INGRESADA!\nESPERANDO A LOS OTROS JUGADORES.",
+                        "DONE": "¡TERMINASTE DE MENTIR!",
+                        "ERROR": "¡No puedes dejarlo en blanco! ¡Usa una sugerencia si necesitas ayuda!",
+                        "ERROR_TRUTH": "¡Ingresaste la verdad! ¡Ingresa una mentira!",
+                        "DEFIB": "DES[FIB]RILADOR",
+                        "DEFIB_TEXT": "¡REDUCE TUS OPCIONES A DOS!"
+                    },
+                    "CHOOSING": {
+                        "PROMPT": "¡encuentra la verdad!",
+                        "YOU_CHOSE": "Elegiste: {choice}",
+                        "NO_CHOICE": "No hiciste una elección",
+                        "AWARD_LIKES": "Concede likes de bonificación",
+                        "AWARD_LIKE": "Concede un like"
+                    },
+                    "AUDIENCE": {
+                        "SCORE": "TU PUNTAJE HASTA AHORA",
+                        "FINAL_SCORE": "PUNTAJE FINAL",
+                        "LIKE_A": "Puedes darle “Like” a tus mentiras favoritas (un Like por pregunta).",
+                        "LIKE_B": "- Y -",
+                        "LIKE_C": "¡Puedes jugar adivinando la Verdad en cada pregunta! Obtén un puntaje perfecto de 7/7 y recibe un dato adicional extraño y gratuito – ¡ideal para fiestas!",
+                        "YOU_CHOSE": "Elegiste: ",
+                        "NO_ANSWER": "¡SIN RESPUESTA!",
+                        "BONUS_FACTS": [
+                            "Durante la carrera de trineos tirados por perros Iditarod de 1988 en Alaska, John Suter no compitió con un equipo de perros de trineo tradicional, ¡sino con un equipo de caniches! (Perdió).",
+                            "Los ladridos de los velocirraptores en Jurassic Park se hicieron grabando el sonido del apareamiento de las tortugas.",
+                            "El informe del censo de Seattle de 2011 reveló que los ciudadanos tenían más perros que niños.",
+                            "¡El ex presidente de los EE. UU., Warren G. Harding, una vez perdió la porcelana de la Casa Blanca en un partido de póquer!",
+                            "¡Los inventores del papel de burbujas inicialmente estaban tratando de hacer un papel tapiz de plástico!",
+                            "¡Recorte de pelo de Caniches fue un deporte de demostración en los Juegos Olímpicos de 1900!",
+                            "¡Los Doritos se inventaron en Disneylandia!",
+                            "¡El Dr. Seuss le propuso matrimonio a su esposa mientras ella viajaba en la parte trasera de su motocicleta!",
+                            "En 2015, los Atlanta Falcons fueron multados con $350.000 dólares y perdieron una selección del draft de la NFL de 2016 después de que los sorprendieran emitiendo ruido falso de multitud en los parlantes de su estadio.",
+                            "¡Uno de los primeros prototipos del mouse de Apple se construyó con un plato de mantequilla y un desodorante de bola!",
+                            "Hay una banda de metal con sede en Baltimore cuyo cantante principal es un loro gris africano. Se llaman Hatebeak.",
+                            "La partitura musical de Andrew Lloyd Weber para la secuela de El fantasma de la ópera fue, y es cierto, borrada por su gato.",
+                            "Los animadores de Disney recibieron instrucciones de hacer que Aladdin se pareciera a Tom Cruise y a Michael J. Fox.",
+                            "¡El primer sostén deportivo se construyó cosiendo dos suspensorios juntos!",
+                            "Antes de retratarlos como dueños de un restaurante de hamburguesas, el creador de Bob’s Burgers pretendía que los Belcher fueran una familia de caníbales.",
+                            "¿Fan de Breaking Bad? Las personas reales que viven en la casa de Walter White probablemente no lo sean, porque la gente sigue imitando una escena famosa tirando pizzas en el techo.",
+                            "Si viajas a la ciudad italiana de Laglio, ten cuidado. Hay una multa de 500 Euros por acercarse demasiado a George Clooney. (Le encanta ir de vacaciones allí).",
+                            "Si estás buscando el lugar perfecto para tu próxima fiesta o boda, considera el Sixth Floor Museum, que ahora está disponible para alquiler. ¡Es el edificio desde el que supuestamente Lee Harvey Oswald le disparó a JFK! ¡Romántico!",
+                            "Un árbol de Los Ángeles que se plantó en 2001 en memoria de la vida de George Harrison también dejó de existir en 2015 después de que lo mataran… escarabajos (beetles en inglés).",
+                            "La ciudad de Nueva York tiene un promedio de alrededor de 2.100 bocas de acceso que explotan por año, muchas de las cuales lesionan gravemente a los transeúntes. Eso es solo alrededor de 6 por día, no te preocupes. Probablemente estarás bien."
+                        ],
+                        "REACTION_0_1": [
+                            "Yyyyy perdiste. ¡Pero sigue jugando! ¡No te puede ir peor!",
+                            "Abajo y fuera en la primera ronda. ¡Pero sigue jugando para salvar parcialmente tu reputación!",
+                            "Perdiste en la primera pregunta. ¡Pero sigue jugando por el premio del segundo lugar de NADA!",
+                            "¡Perdiste en la primera ronda! Pero sigue jugando y no le diremos a la gente cómo fallaste totalmente por completo.",
+                            "Perdiste en la primera ronda. Pero oye, ¡desafía las probabilidades en tu contra y sigue jugando para tener la oportunidad de obtener un puntaje perfecto!",
+                            "Y así has perdido. Sin embargo, tus padres todavía creen que eres genial, ¡así que sigue jugando por ellos!"
+                        ],
+                        "REACTION_1_1": [
+                            "¡Lo lograste! Ahora solo haz eso seis veces más. ¡Sin presión!",
+                            "¡Búm! ¡Estás volando alto!",
+                            "¡Gran comienzo! Puedes hacer esto... ¡a menos que la creciente presión te haga estallar!",
+                            "¡Perfecto hasta ahora! ¡¡¡Estas son las cosas de las que están hechos los recuerdos!!!",
+                            "¡Y comienza la racha! ¡¡¡Tú puedes!!! (A menos que no. Ya veremos).",
+                            "¡Uno por uno! ¡Eres invencible y nada puede detenerte!"
+                        ],
+                        "REACTION_0_2": [
+                            "Okey, aún no vas a ganar, ¡pero estás jugando por diversión! ¿Verdad? ¡¿Verdad?!",
+                            "Si el objetivo era equivocarse en todas, ¡¡¡LO ESTÁS HACIENDO MUY BIEN!!!",
+                            "¡Y la racha continúa! No es una buena racha pero… ¡¡¡CONTINÚA!!!",
+                            "Estás completamente fuera, ¡pero saludamos tu espíritu de nunca rendirte!",
+                            "Estás completamente fuera, ¡pero sigue jugando! ¿Qué más vas a hacer?",
+                            "Ok, nueva meta: ¡Intenta acertar 0 de 3!",
+                            "Muy bien, 0 de 2. ¡Solo puedes subir (o bajar más) desde aquí!"
+                        ],
+                        "REACTION_1_2": [
+                            "Has respondido correctamente a la mitad de ellas... pero, lo que es más importante, ha respondido incorrectamente a la mitad de ellas.",
+                            "¡Has acertado el 50% de ellas! ¡Pero hay un 100% de posibilidades de que no ganes!",
+                            "Por un lado, ¡has acertado uno de dos! Pero ese lado no importa. Disculpas.",
+                            "Uno de dos no está mal. No es lo suficientemente bueno para ganar, pero no es malo.",
+                            "Uno de dos. Las matemáticas son difíciles, pero eso es aproximadamente una tasa de éxito del 46%.",
+                            "¡Has acertado el 50% de ellas! ¡Deberías estar 50% emocionado!"
+                        ],
+                        "REACTION_2_2": [
+                            "¡Puntaje perfecto! Sigue así porque no se vuelve más fácil desde aquí.",
+                            "¿Tu cerebro ya está sudando? ¿Los cerebros sudan? No respondas eso, podrías arruinar tu puntaje perfecto.",
+                            "¡Dos de dos! ¡Es hora de emocionarse levemente pero no demasiado!",
+                            "¡Puntaje perfecto hasta ahora! Ten confianza, pero no seas arrogante.",
+                            "De acuerdo con nuestro perro matemático genio que cuenta con sus patas, ¡estás en camino de obtener un puntaje perfecto!",
+                            "¡Eres perfecto! Bueno, tu puntaje lo es."
+                        ],
+                        "REACTION_0_3": [
+                            "Pero sigue jugando porque queremos ver lo mal que se puede poner esto.",
+                            "No estás dejando que tu gato juegue por ti, ¿verdad?",
+                            "Así que, no has acertado. Qué cosa. Lograr cosas está sobrevalorado. ¡Sigue haciendo lo que estás haciendo, que es nada!",
+                            "Sigue así. No puedes equivocarte con todas. ¿Verdad? ¡¿Verdad?! (No esperamos que sepas la respuesta correcta).",
+                            "0 de 3. No hay que entrar en pánico. Mantén la calma hasta que aciertes 0 de 4.",
+                            "Tienes un 10 por el esfuerzo. Aunque sigues teniendo un gran 0 por el puntaje."
+                        ],
+                        "REACTION_1_3": [
+                            "Obviamente no puedes detectar una mentira y probablemente deberías alejarte de la internet.",
+                            "¿Es inútil continuar? Sí, ¡pero hazlo de todos modos!",
+                            "Una de tres. Estás arruinando un tercio gigante en este juego.",
+                            "Solo una correcta, pero recuerda: un puntaje es solo un número que dicta si ganas o no.",
+                            "Una de tres. ¡Demuestra que eres más que una fracción!"
+                        ],
+                        "REACTION_2_3": [
+                            "Dos de tres. No vas a ganar, pero al menos no te avergüenzas.",
+                            "Dos de tres. ¡Profundiza en ti mismo y encuentra el coraje para seguir adelante!",
+                            "Un puntaje perfecto todavía no está fuera de discusión, en una realidad alternativa.",
+                            "Hagas lo que hagas, no lo hagas bien de aquí en adelante o será espantoso"
+                        ],
+                        "REACTION_3_3": [
+                            "¡Tres de tres! ¡Nadie te está engañando con alguna tontería!",
+                            "¡Tres consecutivas! ¡Eso es oficialmente una racha! ¡Estás en racha!",
+                            "¡Tres de tres! ¿Estás mirando la parte de atrás de la pantalla del juego donde todas las respuestas están impresas en pequeñas letras al revés?",
+                            "¡Tres de tres! ¿Necesitas agua o algo? ¿No? Bien, ¡sigue adelante!",
+                            "¡Tres de tres! No queremos mufarla, ¡pero obtendrás un puntaje perfecto!"
+                        ]
+                    }
+                }
+            }
         }
     }</script>
     <style>body{background-color:#091420}</style>
