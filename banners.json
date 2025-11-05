@@ -1,6 +1,11 @@
 {
   "bannerAds": [
     {
+      "text": "¡Pack 11 traducido!",
+      "src": "/assets/@connect/Pack11Promo.png",
+      "href": "https://traducciones.jackbox.lol/informacion/the-jackbox-party-pack-11"
+    },
+    {
       "text": "¡Nuestras traducciones!",
       "src": "/assets/@connect/sitioweb.png",
       "href": "https://traducciones.jackbox.lol/"
