@@ -8,21 +8,6 @@
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <style>html{background:#14200A}.jbg.sign-in .top-bar{background:#54f442}.jbg.sign-in .open-container{background:#41ce32}</style>
-<script>
-function addTranslationNotice() {
-  const tosParagraph = document.querySelector("#app > div > div.form > div > form > p.tos");
-  
-  if (tosParagraph && !tosParagraph.textContent.includes("Traducido en español")) {
-    // Armazena o conteúdo original para referência futura
-    if (!tosParagraph.dataset.originalContent) {
-      tosParagraph.dataset.originalContent = tosParagraph.innerHTML;
-    }
-    
-    // Adiciona o texto de tradução mantendo o conteúdo original
-    tosParagraph.innerHTML = "Traducción al español hecha por la comunidad. No afiliada con Jackbox Games. " + tosParagraph.dataset.originalContent;
-  }
-}
     <script type="module" src="https://dc90h5g6gtape.cloudfront.net/tv.js"></script>
     <script data-config type="application/json">{
     "title": "Jackbox.lol | Jackbox en español",
