@@ -1,7 +1,12 @@
 {
   "bannerAds": [
     {
-      "text": "¡Traducciones y doblaje!",
+      "text": "¡Nuevos doblajes!",
+      "src": "/assets/@connect/jobdoominate.png",
+      "href": "https://traducciones.jackbox.lol/news/2026-11-20"
+    },
+    {
+      "text": "¡Nuevas traducciones!",
       "src": "/assets/@connect/pp12fixlsub.png",
       "href": "https://traducciones.jackbox.lol/news/2026-11-13"
     },
